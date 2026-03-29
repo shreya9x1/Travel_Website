@@ -213,3 +213,17 @@ Thank you to all the amazing contributors who have made this project possible!!ð
 - Our Trip gallery
 - Contact us page
 - **Feedback Form** - Comprehensive tour feedback collection with multi-section surveys and visual rating scales
+
+## System Architecture
+
+```mermaid
+graph TD
+    A[index.html] -->|Main landing page| B[Feedback Button]
+    B -->|Navigate to| C[feed.html]
+    C -->|User submits| D[thankyou.html]
+    C -->|Styled by| E[feed.css]
+    A -->|Uses styles| F[styles.css]
+    A -->|Uses scripts| G[index.js]
+    H[Contact Form] -->|Complements| C
+    I[Destination Pages] -->|Part of| A
+```
