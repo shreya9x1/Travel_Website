@@ -1,4 +1,5 @@
 # <p align="center">✨Travel Website✨</p>
+
 <p align="center">
    
 <center>
@@ -188,6 +189,7 @@ Show some ❤️&nbsp; by giving <img src="https://imgur.com/o7ncZFp.jpg" height
 </div>
 
 ## Contributing is fun🧡
+
 <p align ="center">
   <img src="https://github.com/shruti-sen2004/Travel_Website/assets/115914670/d544fd3b-aed2-4a05-a2f8-0b7a2ff9014f" width="700" height= "250" />
 </p>
@@ -199,10 +201,29 @@ Show some ❤️&nbsp; by giving <img src="https://imgur.com/o7ncZFp.jpg" height
 Thank you to all the amazing contributors who have made this project possible!!💝
 
 ## License 
+
 <img src = "https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge">
 
 <p align="right"><a href="#top"><img src="https://img.shields.io/badge/Move%20to%20top-Blue?style=plastic" alt="Back To Top"></a></p>
 
+**Features**
+- An Introductory Page
+- Top Destination Page
+- Best trip Packages
+- Our Trip gallery
+- Contact us page
+- **Feedback Form** - Comprehensive tour feedback collection with multi-section surveys and visual rating scales
 
+## System Architecture
 
-
+```mermaid
+graph TD
+    A[index.html] -->|Main landing page| B[Feedback Button]
+    B -->|Navigate to| C[feed.html]
+    C -->|User submits| D[thankyou.html]
+    C -->|Styled by| E[feed.css]
+    A -->|Uses styles| F[styles.css]
+    A -->|Uses scripts| G[index.js]
+    H[Contact Form] -->|Complements| C
+    I[Destination Pages] -->|Part of| A
+```
