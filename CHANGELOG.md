@@ -1,0 +1,3 @@
+## [9119b52] - 2024-01-27
+### Created feedback form properly
+Implemented a comprehensive feedback form feature for collecting user feedback on tours and services. Added feed.html with a multi-section survey including ratings for ease of navigation, booking process, information accuracy, payment options, security measures, and customer support. Includes themed styling in feed.css with color-coded 5-point rating scales and a thank-you confirmation page (thankyou.html). Integrated feedback page navigation button in the main index.html contact section for easy user access.
