@@ -1,0 +1,3 @@
+## [811ab5a] - 2024-01-27
+### Enhance feedback page with visual improvements and animated buttons
+Modified the feedback page (feedback.html and style_.css) to improve user experience and visual appeal. Added a background image to the feedback form, replaced static buttons with animated gradient buttons featuring smooth hover and active states, updated the rating star color scheme to a warmer tone (#eae3be), enhanced the textarea styling with a new border color (#5468ff) and light blue background, and improved typography with custom font styling for headings and labels. The form now includes updated placeholder text and refined spacing for better readability.
